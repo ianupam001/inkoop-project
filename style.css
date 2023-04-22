@@ -1,0 +1,36 @@
+section {
+  border: 2px solid salmon;
+  padding: 33px;
+  background-color: rgb(238, 144, 4);
+  width: 500px;
+  margin: 20px auto;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right-color: black;
+  border-left-color: black;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#input-field {
+  margin-top: 20px;
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#output {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
